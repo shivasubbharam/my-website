@@ -1,6 +1,6 @@
 function login(event) {
   event.preventDefault();
-  const username = document.getElementById("usernametest").value;
+  const username = document.getElementById("usernametest1").value;
   const password = document.getElementById("password").value;
   const message = document.getElementById("message");
 
