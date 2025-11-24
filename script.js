@@ -1,6 +1,6 @@
 function login(event) {
   event.preventDefault();
-  const username = document.getElementById("Usernamevbg").value;
+  const username = document.getElementById("Username").value;
   const password = document.getElementById("password").value;
   const message = document.getElementById("message");
 
@@ -12,3 +12,4 @@ function login(event) {
     message.innerText = "Invalid credentials! Try admin / admin123.";
   }
 }
+
