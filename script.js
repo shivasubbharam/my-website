@@ -1,7 +1,7 @@
 function login(event) {
   event.preventDefault();
-  const username = document.getElementById("Username78").value;
-  const password = document.getElementById("password78").value;
+  const username = document.getElementById("Username").value;
+  const password = document.getElementById("password").value;
   const message = document.getElementById("message");
 
   if (username === "admin" && password === "admin123") {
@@ -12,6 +12,7 @@ function login(event) {
     message.innerText = "Invalid credentials! Try admin / admin123.";
   }
 }
+
 
 
 
